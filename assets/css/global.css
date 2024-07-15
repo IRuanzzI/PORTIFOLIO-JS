@@ -1,0 +1,30 @@
+/* Define box-sizing e fonte padrão para todos os elementos */
+* {
+    box-sizing: border-box;
+    font-family: 'SF Pro', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Importa a fonte SF Pro */
+@font-face {
+    font-family: 'SF Pro';
+    src: url('/assets/fonts/SF-Pro.ttf');
+}
+
+@font-face {
+    font-family: 'SF Pro Display Light Italic';
+    src: url('/assets/fonts/SF-Pro-Display-LightItalic.otf') format('opentype');
+}
+
+/* Estilos para o corpo da página */
+body {
+    background: #000;
+    color: white;
+}
+
+/* Estilos para o elemento com a classe .main */
+.main {
+    margin: 1rem ;
+    padding: .5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}

@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.title {
+    font-family: 'SF Pro Display Regular', sans-serif;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.information p {
+    font-family: 'SF Pro Display Light Italic', sans-serif;
+    font-size: 1.125rem;
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information p::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: .5rem;
+}
+
+.information .ocupation::before{
+    background-image: url('/assets/img/icones/Group.svg');
+}
+.information .city::before{
+    background-image: url('/assets/img/icones/Vector.svg');
+}
+.information .number::before{
+    background-image: url('/assets/img/icones/zap.svg');
+}
+.information .mail::before{
+    background-image: url('/assets/img/icones/mail.svg');
+}
