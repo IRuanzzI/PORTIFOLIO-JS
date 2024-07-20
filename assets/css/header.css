@@ -4,7 +4,7 @@
     align-items: center;
 }
 
-.image {
+.photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -52,4 +52,29 @@
 }
 .information .mail::before{
     background-image: url('/assets/img/icones/mail.svg');
+}
+
+@media only screen and (min-width: 768px){
+    .header {
+        display: grid;
+        grid-template-areas: 
+        "photo title"
+        "photo information"
+        ;   
+    }
+
+    .header .photo{
+        grid-area: photo;
+        margin: 0 auto;
+    }
+
+    .header .title{
+        text-align: start;
+        grid-area: title;
+        max-width: 200px;
+    }
+
+    .header .information{
+        grid-area: information;
+    }
 }
