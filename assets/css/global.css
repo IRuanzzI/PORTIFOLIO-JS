@@ -29,6 +29,16 @@ body {
     border-radius: 1rem;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color:#F285B6;
+    transition: 0.2s;
+}
+
 .main::before{
     content: '';
     background-image: url(/assets/img/bg.svg);
