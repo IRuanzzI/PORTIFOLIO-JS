@@ -54,3 +54,13 @@
     background-image: url(/assets/img/icones/iconmonstr-github-1\ 1giticon.svg);
     margin-right: .5rem;
 }
+.portfolio .todo::before {
+    content: '';
+    display: inline-block;
+    width: 1.2rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/assets/img/icones/clipboard.svg);
+    margin-right: .5rem;
+}
